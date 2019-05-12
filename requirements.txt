@@ -3,3 +3,5 @@ djangorestframework
 Pillow
 phonenumbers
 django-phonenumber-field
+gunicorn
+django-heroku
