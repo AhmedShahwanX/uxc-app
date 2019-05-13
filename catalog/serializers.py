@@ -10,7 +10,7 @@ class ProductImageSerializer(serializers.ModelSerializer):
 
 
 class ProductSerializer(serializers.ModelSerializer):
-    images = ProductImageSerializer(many=True, required=False)
+    # images = ProductImageSerializer(many=True, required=False)
 
     class Meta:
         model = Product
@@ -18,7 +18,7 @@ class ProductSerializer(serializers.ModelSerializer):
 
 
 class ShopSerializer(serializers.ModelSerializer):
-    products = ProductSerializer(many=True, required=False)
+    # products = ProductSerializer(many=True, required=False)
 
     class Meta:
         model = Shop
@@ -26,7 +26,7 @@ class ShopSerializer(serializers.ModelSerializer):
 
 
 class CategorySerializer(serializers.ModelSerializer):
-    shops = ShopSerializer(many=True, required=False)
+    # shops = ShopSerializer(many=True, required=False)
 
     class Meta:
         model = Category
