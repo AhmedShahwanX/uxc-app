@@ -1,1 +1,1 @@
-web: gunicorn uxc.wsgi
+web: gunicorn uxc.wsgi --log-file -

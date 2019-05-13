@@ -7,5 +7,4 @@ urlpatterns = [
     path('shop/', ShopList.as_view(), name="shop"),
     path('product/', ProductList.as_view(), name="product"),
     path('product_gallery', ProductImages.as_view(), name="product_images"),
-    # path('^$', viewset) # docs
 ]

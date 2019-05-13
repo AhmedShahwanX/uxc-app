@@ -5,3 +5,4 @@ phonenumbers
 django-phonenumber-field
 gunicorn
 django-heroku
+coreapi
